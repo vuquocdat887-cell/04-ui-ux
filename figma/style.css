@@ -1,0 +1,437 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.div {
+    padding-left: 64px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div a, .div select {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 112px;
+    width: 100%;
+}
+
+.div2 {
+    background: whitesmoke;
+    width: 394px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 12px;
+}
+
+.div2 input {
+    width: 290px;
+    height: 28px;
+    border: none;
+    background: whitesmoke;
+}
+
+.div2 button {
+    width: 32px;
+    height: 32px;
+    gap: 40px;
+}
+
+.div3 {
+    gap: 24px;
+    width: 295px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.div4 {
+    gap: 12px;
+    display: flex;
+    height: 56px;
+}
+
+.div4 button {
+    border-radius: 12px;
+    height: 56px;
+}
+
+.login {
+    width: 112px;
+
+}
+
+.select {
+    width: 175px;
+    color: aliceblue;
+    background: black;
+}
+
+.vid {
+    height: 774px;
+    display: flex;
+    place-items: center;
+    padding-inline: 64px;
+    gap: 120px;
+}
+
+.vid1 {
+    height: 234px;
+    width: 532px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.vid2 h1 {
+    width: 532px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.vid2 p {
+    font-size: 24px;
+    font-weight: 500;
+    width: 481px;
+    height: 72px;
+    line-height: 150%;
+    color: rgb(90, 82, 82);
+    margin: 0;
+}
+
+.vid3 {
+    margin-top: auto;
+    gap: 12px;
+}
+
+.vid3 button {
+    height: 56px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.get {
+    background: black;
+    color: white;
+    width: 220px;
+}
+
+.more {
+    width: 160px;
+
+}
+
+.vid5 {
+    display: flex;
+    object-fit: cover;
+    overflow: hidden;
+    height: 590px;
+    width: 560px;
+    padding-bottom: 24px;
+}
+
+.vid6 {
+    display: flex;
+    gap: 8px;
+}
+
+.vid6 span {
+    width: 100px;
+    height: 6px;
+    border-radius: 100px;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.idv {
+    height: 1267px;
+    display: flex;
+    place-items: center;
+}
+
+.idv1 {
+    margin: 40px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    height: 1187px;
+    width: 1312px;
+}
+
+.idv2 {
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.idv3 {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+}
+
+.idv3 h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    Width: 347px;
+    Height: 38px;
+}
+
+.idv3 p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    Width: 820px;
+    Height: 27px;
+    margin-top: auto;
+}
+
+.idv2 button {
+    width: 130px;
+    height: 56px;
+    border-radius: 12px;
+    font-weight: 650;
+}
+
+.idv4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.product {
+    width: 304px;
+    height: 513px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    border: 1px solid rgb(219, 213, 213);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(173, 171, 171);
+}
+
+.img {
+
+    width: 272px;
+    height: 300px;
+    margin: 16px 0;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 8px;
+}
+
+.name1 strong {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    Width: 191px;
+    Height: 24px;
+}
+
+.name1 span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+    Width: 125px;
+    Height: 17px;
+    color: rgb(90, 82, 82);
+}
+
+.btn {
+    width: 272px;
+    height: 56px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.dvd {
+    height: 337px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.dvd1 {
+    height: 209px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dvd2 {
+    height: 209px;
+    width: 276px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 16px;
+}
+
+.dvd2 b {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.dvd2 small {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    width: 227px;
+}
+
+.vff {
+    margin-inline: 60px;
+    display: flex;
+    border: 1px solid rgb(236, 234, 234);
+    border-radius: 12px;
+    height: 436px;
+    width: 1302px;
+}
+
+.vff1 {
+    width: 109px;
+    height: 265px;
+    margin-top: 64px;
+    margin-left: 32px;
+    margin-right: 45px;
+
+}
+
+.vff1 b {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+
+}
+
+.vff2 {
+    padding-top: 24px;
+    height: 212px;
+    width: 81px;
+    display: grid;
+    gap: 16px;
+}
+
+.vff2 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+    color: rgb(90, 82, 82);
+}
+
+.line {
+    width: 1px;
+    height: 426px;
+    border-right: 1px solid rgb(236, 234, 234);
+}
+
+.vff3 {
+    width: 109px;
+    height: 265px;
+    margin-top: 64px;
+    margin-inline: 32px;
+    width: 436px;
+    height: 215px;
+}
+
+.vff3 b {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    display: block;
+    padding-bottom: 24px;
+}
+
+.vff3 span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: rgb(87, 85, 85);
+}
+
+.vff4 {
+    flex: 1;
+    margin-top: 64px;
+    margin-right: 32px;
+    text-align: right;
+    position: relative;
+}
+
+.vff4 b {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 13px 0;
+}
+
+.vff4 strong {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 100%;
+}
+
+.vff5 {
+    position: absolute;
+    width: 240px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    right: 0;
+    bottom: 64px;
+
+}
+
+.fff {
+    height: 72px;
+    padding-inline: 60px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.fff small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.fff span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(178, 176, 176);
+}

@@ -29,6 +29,7 @@ body {
     gap: 50px;
     height: 112px;
     width: 100%;
+    font-weight: 600;
 }
 
 .div2 {
@@ -72,6 +73,7 @@ body {
 .div4 button {
     border-radius: 12px;
     height: 56px;
+    font-weight: 800;
 }
 
 .login {
